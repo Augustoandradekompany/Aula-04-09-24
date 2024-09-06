@@ -1,0 +1,47 @@
+/* Define a largura máxima do formulário e centraliza na página */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Estiliza os labels do formulário */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Subtrai o padding do label */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estiliza o botão de envio */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Altera a cor do botão de envio ao passar o mouse sobre ele */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
